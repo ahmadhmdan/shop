@@ -31,3 +31,8 @@
 - npm run div
 
 - php artisan serve
+
+Note:
+
+to signup as suber admin, first register as normal user and then change the role_id in the database table (user) to 1
+and then you can access the admin dashboard
