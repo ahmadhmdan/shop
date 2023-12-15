@@ -34,7 +34,7 @@
 
 Note:
 
-to signup as suber admin, first register as normal user and then change the role_id in the database table (user) to 1
+to signup as super admin, first register as normal user and then change the role_id in the database table (user) to 1
 and then you can access the admin dashboard via the small icon in the nav bar.
 
 if the image upload didn't work the first time, please try upload it again. It will work eventually
