@@ -13,9 +13,8 @@
 
 2- run the follwoing command first:
 
--composer install
-
--npm install
+- composer install
+- npm install
 
 3- create new database in the name: shop
 
