@@ -9,30 +9,33 @@
 
 ## How to start the web application:
 
-1- run the follwoing command first:
+1- create .env file and copy the .env.example file to it and change the database name to shop
+
+2- run the follwoing command first:
 
 -composer install
 
 -npm install
 
-2- create new database in the name: shop
+3- create new database in the name: shop
 
-3- run the follwoing command in order:
+4- run the follwoing command in order:
 
 - php artisan migrate
 - php artisan db:seed --class=RolesTableSeeder
 - php artisan db:seed --class=PermissionSeeder
 - php artisan db:seed --class=PermissionRoleSeeder
 
-4- run this command:
+5- run this command:
 - php artisan storage:link
 
-5- To run the website:
-- npm run div
-
+6- To run the website:
+- npm run dev
 - php artisan serve
 
 Note:
 
 to signup as suber admin, first register as normal user and then change the role_id in the database table (user) to 1
-and then you can access the admin dashboard
+and then you can access the admin dashboard via the small icon in the nav bar.
+
+if the image upload didn't work the first time, please try upload it again. It will work eventually
